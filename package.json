@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Hongbusi/hbs-styles/issues"
   },
-  "homepage": "https://github.com/Hongbusi/hbs-styles#readme"
+  "homepage": "https://github.com/Hongbusi/hbs-styles#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
