@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/Hongbusi/hbs-styles#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.8"
   }
 }
