@@ -1,0 +1,15 @@
+.select-none {
+  user-select: none;
+}
+
+.select-text {
+  user-select: text;
+}
+
+.select-auto {
+  user-select: auto;
+}
+
+.select-all {
+  user-select: all;
+}
