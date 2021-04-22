@@ -73,3 +73,11 @@
 .hidden {
   display: none;
 }
+
+.list-item {
+  display: list-item;
+}
+
+.inline-table {
+  display: inline-table;
+}
