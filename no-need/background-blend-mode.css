@@ -1,0 +1,63 @@
+.bg-blend-normal {
+  mix-blend-mode: normal;
+}
+
+.bg-blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.bg-blend-screen {
+  mix-blend-mode: screen;
+}
+
+.bg-blend-overlay {
+  mix-blend-mode: overlay;
+}
+
+.bg-blend-darken {
+  mix-blend-mode: darken;
+}
+
+.bg-blend-lighten {
+  mix-blend-mode: lighten;
+}
+
+.bg-blend-color-dodge {
+  mix-blend-mode: color-dodge;
+}
+
+.bg-blend-color-burn {
+  mix-blend-mode: color-burn;
+}
+
+.bg-blend-hard-light {
+  mix-blend-mode: hard-light;
+}
+
+.bg-blend-soft-light {
+  mix-blend-mode: soft-light;
+}
+
+.bg-blend-difference {
+  mix-blend-mode: difference;
+}
+
+.bg-blend-exclusion {
+  mix-blend-mode: exclusion;
+}
+
+.bg-blend-hue {
+  mix-blend-mode: hue;
+}
+
+.bg-blend-saturation {
+  mix-blend-mode: saturation;
+}
+
+.bg-blend-color {
+  mix-blend-mode: color;
+}
+
+.bg-blend-luminosity {
+  mix-blend-mode: luminosity;
+}
