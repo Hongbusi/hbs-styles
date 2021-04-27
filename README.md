@@ -1,11 +1,16 @@
 # hbs-styles
 
-[tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+
+## 参考
+
+[阔知设计系统](http://design.edusoho.com/#/pc-element-layout/font)
 
 ## 开发
 
 ``` sh
-npm install or yarn
+npm install
+
+yarn
 ```
 
 ## 打包
