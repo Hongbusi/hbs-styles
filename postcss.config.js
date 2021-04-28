@@ -8,5 +8,6 @@ module.exports = {
     autoprefixer(),
     postcssImport(),
     cssnano()
-  ]
+  ],
+  // syntax: 'postcss-less'
 }
