@@ -1,6 +1,13 @@
-each(@size, {
-  .fs-@{key} {
-    font-size: @key;
-    line-height: @value;
+each(@size1, {
+  .fs-@{value} {
+    font-size: (@value * @unit);
+    line-height: ((@value + 4 + 2 * (@index - 1)) * @unit);
+  }
+});
+
+each(@size2, {
+  .fs-@{value} {
+    font-size: (@value * @unit);
+    line-height: ((@value + 8) * @unit);
   }
 });

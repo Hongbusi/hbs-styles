@@ -2,37 +2,45 @@ each(@spacing, {
 
   // margin
 
+  .m-@{value} {
+    margin: (@value * @unit);
+  }
+
   .mt-@{value} {
-    margin-top: @value;
+    margin-top: (@value * @unit);
   }
 
   .mr-@{value} {
-    margin-right: @value;
+    margin-right: (@value * @unit);
   }
 
   .mb-@{value} {
-    margin-bottom: @value;
+    margin-bottom: (@value * @unit);
   }
 
   .ml-@{value} {
-    margin-left: @value;
+    margin-left: (@value * @unit);
   }
 
   // padding
 
+  .p-@{value} {
+    padding: (@value * @unit);
+  }
+
   .pt-@{value} {
-    padding-top: @value;
+    padding-top: (@value * @unit);
   }
 
   .pr-@{value} {
-    padding-right: @value;
+    padding-right: (@value * @unit);
   }
 
   .pb-@{value} {
-    padding-bottom: @value;
+    padding-bottom: (@value * @unit);
   }
 
   .pl-@{value} {
-    padding-left: @value;
+    padding-left: (@value * @unit);
   }
 });
