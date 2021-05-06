@@ -6,20 +6,22 @@
   "style": "index.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss index.less -o index.min.css"
+    "less": "lessc index.less index.css",
+    "postcss": "postcss index.css -o index.min.css",
+    "build": "lessc index.less index.css && postcss index.css -o index.min.css"
   },
-  "keywords": ["css"],
+  "keywords": [
+    "css"
+  ],
   "author": "Hongbusi",
   "license": "ISC",
-  "bugs": {
-  },
+  "bugs": {},
   "homepage": "http://coding.codeages.work/FEZ/styles#readme",
   "devDependencies": {
     "autoprefixer": "^10.2.5",
     "cssnano": "^4.1.10",
+    "less": "^4.1.1",
     "postcss": "^8.2.10",
-    "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.1",
-    "postcss-less": "^4.0.1"
+    "postcss-cli": "^8.3.1"
   }
 }
