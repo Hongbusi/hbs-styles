@@ -1,0 +1,15 @@
+each(range(5), {
+  .text-overflow when (@value = 1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+  }
+
+  .text-overflow-@{value} when (@value > 1) {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: @value;
+    -webkit-box-orient: vertical;
+  }
+});
