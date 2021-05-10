@@ -4,3 +4,4 @@ package-lock.json
 yarn.lock
 index.css
 index.min.css
+index.min.less
