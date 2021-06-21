@@ -1,10 +1,10 @@
-.ellipsis {
+.text-overflow {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space:nowrap;
 }
 
-.ellipsis(@line) when (@line > 1) {
+.text-overflow(@line) when (@line > 1) {
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;

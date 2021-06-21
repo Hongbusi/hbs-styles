@@ -1,49 +1,70 @@
-// spacing
+@unit: 1px;
 @spacing: 0, 4, 8, 16, 24, 32, 40, 48;
 
 each(@spacing, {
 
   // margin
 
-  .m-@{value} {
+  .m@{value} {
     margin: (@value * @unit);
   }
 
-  .mt-@{value} {
+  .mt@{value} {
     margin-top: (@value * @unit);
   }
 
-  .mr-@{value} {
+  .mr@{value} {
     margin-right: (@value * @unit);
   }
 
-  .mb-@{value} {
+  .mb@{value} {
     margin-bottom: (@value * @unit);
   }
 
-  .ml-@{value} {
+  .ml@{value} {
     margin-left: (@value * @unit);
+  }
+
+  .mh@{value} {
+    margin-right: (@value * @unit);
+    margin-left: (@value * @unit);
+  }
+
+  .mv@{value} {
+    margin-top: (@value * @unit);
+    margin-bottom: (@value * @unit);
   }
 
   // padding
 
-  .p-@{value} {
+  .p@{value} {
     padding: (@value * @unit);
   }
 
-  .pt-@{value} {
+  .pt@{value} {
     padding-top: (@value * @unit);
   }
 
-  .pr-@{value} {
+  .pr@{value} {
     padding-right: (@value * @unit);
   }
 
-  .pb-@{value} {
+  .pb@{value} {
     padding-bottom: (@value * @unit);
   }
 
-  .pl-@{value} {
+  .pl@{value} {
     padding-left: (@value * @unit);
   }
+
+  .ph@{value} {
+    padding-right: (@value * @unit);
+    padding-left: (@value * @unit);
+  }
+
+  .pv@{value} {
+    padding-top: (@value * @unit);
+    padding-bottom: (@value * @unit);
+  }
+
 });
