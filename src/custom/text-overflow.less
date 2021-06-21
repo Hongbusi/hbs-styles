@@ -4,10 +4,10 @@
   white-space:nowrap;
 }
 
-.ellipsis when (@value > 1) {
+.ellipsis(@line) when (@line > 1) {
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: @value;
+  -webkit-line-clamp: @line;
   -webkit-box-orient: vertical;
 }
