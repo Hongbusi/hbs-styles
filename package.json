@@ -1,15 +1,14 @@
 {
   "name": "@codeages/styles",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.min.less",
   "style": "index.min.less",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "less": "lessc index.less index.css",
+    "less": "lessc src/dependent-variable/index.less src/dependent-variable/index-dist.less",
     "postcss": "postcss index.css -o index.min.css",
-    "build": "lessc index.less index.css && postcss index.css -o index.min.css",
-    "build-less": "postcss index.less -o index.min.less"
+    "build": "lessc src/dependent-variable/index.less src/dependent-variable/index-dist.less && postcss index.less -o index.min.less"
   },
   "keywords": [
     "css"
