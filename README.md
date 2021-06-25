@@ -2,20 +2,12 @@
 
 公共样式库。
 
-## 参考
-
-[阔知设计系统](http://design.edusoho.com/#/pc-element-layout/font)
-
-## 开发
+## 使用
 
 ``` sh
-npm install
+yarn add @codeages/styles
 
-yarn
-```
+or
 
-## 打包
-
-``` sh
-npm run build
+npm install @codeages/styles
 ```
