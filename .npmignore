@@ -1,13 +1,9 @@
+idle
 node_modules
-
+src/
 .browserslistrc
 .editorconfig
-
-yarn.lock
-package-lock.json
-
-no-need
-src/
-variable.less
 index.less
+package-lock.json
 postcss.config.js
+yarn.lock
