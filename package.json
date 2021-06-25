@@ -6,9 +6,9 @@
   "style": "index.min.less",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "less": "lessc src/dependent-variable/index.less src/dependent-variable/index-dist.less",
+    "less": "lessc src/spacing/index.less src/spacing/dist.less",
     "postcss": "postcss index.css -o index.min.css",
-    "build": "lessc src/dependent-variable/index.less src/dependent-variable/index-dist.less && postcss index.less -o index.min.less"
+    "build": "lessc src/spacing/index.less src/spacing/dist.less && postcss index.less -o index.min.less"
   },
   "keywords": [
     "css"
